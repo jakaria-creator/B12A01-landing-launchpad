@@ -17,7 +17,7 @@
 }
 
 
-/*navbar styles*/
+/*header styles*/
 
 .header {
   background-color: rgba(78, 71, 255, 0.01);
@@ -93,6 +93,10 @@
   
 }
 
+.btn-live {
+  max-width: 229px;
+  white-space: nowrap;
+}
 
 
 .btn-primary:hover {
@@ -102,4 +106,37 @@
 
 .btn-stay-focoused:hover {
   background-color: skyblue;
+}
+
+
+
+/*Action section styles*/
+
+.action-h1 {
+  font-size: 42px;
+  color:rgba(37, 36, 50, 1);
+}
+
+.action-p {
+  font-weight: 400;
+  font-style: regular;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  padding-top: 23px;
+  padding-bottom: 23px;
+  color:rgba(37, 36, 50, 0.5);
+}
+
+.action-img {
+  width: 403px;
+  height: 328px;
+  border-radius: 48px;
+}
+
+.action-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 126px 150px 0px 150px;
 }
