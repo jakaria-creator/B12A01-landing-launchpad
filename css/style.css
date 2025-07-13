@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.inter-special {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+/*navbar styles*/
+
+.header {
+  background-color: rgba(78, 71, 255, 0.01);
+  background-image: url('../css/images/hero-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 688px;
+  padding-bottom: 200px;
+  gap: 158px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 150px;
+  opacity: 1;
+
+
+}
+
+.nav-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 34px;
+  line-height: 150%;
+  letter-spacing: normal;
+  color: rgba(78, 71, 255, 1);
+}
+
+.header-content {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  align-items: center;
+  padding: 158px 117.5px;
+}
+
+.header-p {
+  font-weight: 700;
+  font-size: 65px;
+  text-align: center;
+  color: rgba(37, 36, 50, 1);
+}
+
+.header-p2 {
+  padding-bottom: 37px;
+}
+
+.list-item {
+  list-style: none;
+}
+
+.btn-primary{
+    max-width: 132px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-align: center;
+    color:rgba(255, 255, 255, 1);
+    background-color: rgba(78, 71, 255, 1);
+    border: none;
+    padding: 12px 36px;
+    border-radius: 10px;
+}
+
+.btn-stay-focoused {
+  max-width: 174px;
+  white-space: nowrap;
+  
+}
+
+
+
+.btn-primary:hover {
+    background-color: skyblue
+}
+
+
+.btn-stay-focoused:hover {
+  background-color: skyblue;
+}
