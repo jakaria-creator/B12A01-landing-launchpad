@@ -196,3 +196,58 @@ width: 1440px;
   align-items: center;
   padding-top: 115px;
 }
+
+
+
+/*user comment section*/
+
+.comment-h1 {
+  text-align: center;
+  font-size: 42px;
+  color:rgba(37, 36, 50, 1);
+}
+
+.comment-title {
+  max-width: 220px;
+  max-height: 30px;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color:rgba(30, 30, 30, 1);
+
+}
+
+.comment-p {
+  width: 318px;
+  height: 44px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color:rgba(30, 30, 30, 1);
+}
+
+.img-user {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reviewer {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.4;
+  vertical-align: middle;
+  color:rgba(117, 117, 117, 1);
+}
+
+#date {
+  line-height: 1.4;
+  color:rgba(179, 179, 179, 1);
+}
+
+.user-comment {
+  display: flex;
+}
