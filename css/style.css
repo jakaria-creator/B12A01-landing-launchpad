@@ -103,7 +103,11 @@ max-width: 195px;
 
 .btn-live {
   max-width: 229px;
-  white-space: nowrap;
+}
+
+.btn-submit {
+  max-width: 497px;
+  width: 100%;
 }
 
 
@@ -339,3 +343,62 @@ max-width: 195px;
   border-radius: 48px;
 }
 
+
+/*Get in touch styles*/
+
+
+.get-touch {
+  padding-top: 75px;
+  padding-bottom: 35px;
+  display: flex;
+  gap: 115px;
+}
+
+.contact-column {
+  width: 50%;
+}
+
+.text, .message {
+  max-width: 497px;
+  height: 70px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(214, 221, 237, 1);
+  padding: 20px 32px;
+  gap: 10px;
+  margin-bottom: 19px;
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+  background-color:rgba(255, 255, 255, 1);
+}
+
+.message {
+  height: 135px;
+  line-height: 1.5;
+}
+
+.contact-h1 {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 150px;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 97px;
+  line-height: 1.2;
+  color:rgba(0, 0, 0, 1);
+}
+
+.form {
+  padding-top: 71px;
+  padding-bottom: 71px;
+}
+
+
+label {
+  font-weight: 500;
+  font-style: medium;
+  font-size: 18px;
+  line-height: 1.2;
+  color:rgba(0, 0, 0, 1);
+}
