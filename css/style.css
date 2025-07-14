@@ -321,7 +321,7 @@ max-width: 195px;
   border-radius: 14px;
   padding: 70px 150px;
   gap: 20px;
-  color: white;
+  background-color: white;
 }
 
 .focus-h1 {
