@@ -402,3 +402,61 @@ label {
   line-height: 1.2;
   color:rgba(0, 0, 0, 1);
 }
+
+/*Footer styles*/
+
+
+.footer {
+  height: 428px;
+  border-top-width: 1px;
+  background-color:rgba(255, 255, 255, 1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1)
+}
+
+.footer-content {
+  margin-top: 104px;
+  margin-left: 455px;
+  gap: 30px;
+  width: 530px;
+  max-height: 220px;
+  background-color:rgba(255, 255, 255, 1);
+}
+
+
+.footer-logo {
+  font-weight: 900;
+  font-style: black;
+  font-size: 100px;
+  text-box-trim: none;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color:rgba(78, 71, 255, 1);
+}
+
+.footer-p, .footer-nav {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  text-box-trim: none;
+  line-height: 1.5;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(137, 135, 161, 1);
+}
+
+.footer-nav {
+  padding: 20px 65px 0px 65px;
+  display: flex;
+  gap: 48px;
+}
+
+
+a {
+  text-decoration: none;
+  color: rgba(137, 135, 161, 1);
+}
+
+a:hover {
+  color: rgba(78, 71, 255, 1);
+}
