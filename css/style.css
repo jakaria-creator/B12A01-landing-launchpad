@@ -2,6 +2,7 @@
   margin: 0;
   border: 0;
   box-sizing: border-box;
+  background-color: rgba(78, 71, 255, 0.01);
 }
 .raleway-normal {
   font-family: "Raleway", sans-serif;
@@ -24,7 +25,6 @@ width: 1440px;
 /*header styles*/
 
 .header {
-  background-color: rgba(78, 71, 255, 0.01);
   background-image: url('../css/images/hero-bg.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -89,12 +89,16 @@ width: 1440px;
     border: none;
     padding: 12px 36px;
     border-radius: 10px;
+    white-space: nowrap;
 }
 
 .btn-stay-focoused {
   max-width: 174px;
-  white-space: nowrap;
   
+}
+
+.btn-get-started {
+max-width: 195px;
 }
 
 .btn-live {
@@ -105,11 +109,6 @@ width: 1440px;
 
 .btn-primary:hover {
     background-color: skyblue
-}
-
-
-.btn-stay-focoused:hover {
-  background-color: skyblue;
 }
 
 
@@ -298,3 +297,45 @@ width: 1440px;
   gap: 20px;
   padding: 40px 150px;
 }
+
+
+/*Focus section styles*/
+
+.focus-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.focus-section {
+  width: 1140px;
+  max-height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 14px;
+  padding: 70px 150px;
+  gap: 20px;
+  color: white;
+}
+
+.focus-h1 {
+  font-size: 50px;
+  line-height: 1.2;
+  color:rgba(0, 0, 0, 1);
+}
+
+.focus-p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.4;
+  letter-spacing: 0%;
+  color:rgba(0, 0, 0, 0.5);
+}
+
+.focus-img {
+  width: 840px;
+  height: 365px;
+  border-radius: 48px;
+}
+
