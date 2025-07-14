@@ -90,6 +90,7 @@ width: 1440px;
     padding: 12px 36px;
     border-radius: 10px;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .btn-stay-focoused {
